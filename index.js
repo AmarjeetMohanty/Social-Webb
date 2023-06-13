@@ -11,10 +11,10 @@ import { fileURLToPath } from "url"
 import authRoutes from "./routes/auth.js"
 import { register } from "./controllers/auth.js"
 import userRoutes from "./routes/users.js"
-import portRoutes from "./routes/post.js"
+import postRoutes from "./routes/posts.js"
 import { verifyToken } from "./middleware/auth.js"
-import createPost from "./controllers/posts.js"
- 
+import {createPost} from "./controllers/posts.js"
+
 /* CONFIGURATIONS */
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
@@ -59,3 +59,6 @@ mongoose.connect(process.env.MONGO_URL,{
 }).then(()=>{
     app.listen(PORT,()=>console.log(`Server Port :${PORT}`));
 }).catch((error)=>console.log(`${error} did not connect`));
+
+
+
