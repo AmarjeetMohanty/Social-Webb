@@ -15,4 +15,5 @@ export const verifyToken = async(req,res,next) => {
     }catch(err){
         res.satus(500).json({error: err.message})
     }
+
 }
