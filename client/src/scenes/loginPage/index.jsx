@@ -1,4 +1,19 @@
+import { Box, Typography,useTheme,useMediaQuery } from "@mui/material";
+
 const LoginPage = () => {
-    return (<>LoginPage</>)
+    const theme = useTheme()
+    const isNonMobileScreens = useMediaQuery("(min-width: 1000px")
+
+    return <Box>
+        <Box width="100%" backgroungColor={theme.palette.background.alt} p="1rem 6%" >
+        <Typography
+                fontweight="bold"
+                fontSize="32px"
+                color="primary"
+                >
+                Sociopedia
+            </Typography>
+        </Box>
+    </Box>
 };
 export default LoginPage
