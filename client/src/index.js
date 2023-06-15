@@ -11,7 +11,7 @@ import {
   FLUSH,
   REHYDRATE,
   PAUSE,
-  PESIST,
+  PERSIST,
   PURGE,
   REGISTER
 } from "redux-persist"
@@ -20,13 +20,13 @@ import { PersistGate } from "redux-persist/integration/react"
 
 
 const persistConfig = {key:root,storage,version:1}
-const persistReducer = persistReducer(persistConfig,authReducer);
+const persistedReducer = persistReducer(persistConfig,authReducer);
 const store = configureStore({
-  reducer: persistReducer,
+  reducer: persistedReducer,
   middleware: (getDefaultMiddleware)=>
     getDefaultMiddleware({
       serializableCheck: {
-        ignoredActions: [FLUSH, REHYDRATE,PAUSE, PESIST, PURGE, REGISTER],
+        ignoredActions: [FLUSH, REHYDRATE,PAUSE, PERSIST, PURGE, REGISTER],
       },
     }),
 });
