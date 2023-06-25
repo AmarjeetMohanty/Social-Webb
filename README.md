@@ -1,6 +1,5 @@
 # Social-Webb
 
-![Social-Webb Logo](logo.png)
 
 Social-Webb is a social media web application developed using modern web technologies. It allows users to connect with friends, share updates, post photos, and interact with each other through comments and likes.
 
