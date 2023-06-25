@@ -75,10 +75,4 @@ Before contributing, please review the [Contributing Guidelines](CONTRIBUTING.md
 
 Social-Webb is released under the [MIT License](LICENSE).
 
-## Contact
 
-If you have any questions or need further assistance, feel free to contact the project maintainer:
-
-Amarjeet Mohanty  
-Email: amarjeet@example.com  
-LinkedIn: [linkedin.com/in/amarjeetmohanty](https://www.linkedin.com/in/amarjeetmohanty/)
