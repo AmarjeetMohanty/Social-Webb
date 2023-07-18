@@ -41,8 +41,9 @@ npm install
 4. Create a `.env` file in the root directory and provide the following environment variables:
 
 ```
-DATABASE_URL=<your_database_url>
-SESSION_SECRET=<your_session_secret>
+MONGO_URL=<your_database_url>
+JWT_SECRET=<your_session_secret>
+PORT=<Port Number>
 ```
 
 5. Start the application:
