@@ -67,8 +67,10 @@ npm start
 ## Updates
 SignIn functionality still to be implemented.Meanwhile you can try a mock account 
 
--email:-janedoe@gmail.com.
--password:-hello.
+- **email**: janedoe@gmail.com
+- **password**: hello
+
+
 
 ## Contributing
 
