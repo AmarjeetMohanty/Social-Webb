@@ -64,7 +64,10 @@ npm start
 - **EJS**: Templating engine for generating dynamic HTML pages.
 - **Bootstrap**: Front-end framework for building responsive and mobile-first websites.
 - **Multer**: Middleware for handling file uploads.
-- **Socket.IO**: Library for enabling real-time, bidirectional communication between the server and clients.
+## Updates
+SignIn functionality still to be implemented.Meanwhile you can try a mock account 
+email:-janedoe@gmail.com
+password:-hello
 
 ## Contributing
 
